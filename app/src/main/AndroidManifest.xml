@@ -4,20 +4,31 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/unnamed"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.TentangActivity"></activity>
+        <activity android:name=".Activity.DetailInformasiActivity"
+            android:label="Informasi Kehamilan"
+            android:parentActivityName=".Activity.InformasiKehamilanActivity"></activity>
+        <activity
+            android:name=".Activity.MitosActivity"
+            android:label="Mitos Kehamilan"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.TentangActivity"
+            android:label="Tentang Saya"
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.KalkulatorHPLActivity"
             android:label="Kalkulator Hari Perkiraan Lahir"
             android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.InformasiKehamilanActivity"
-            android:theme="@style/AppThemeNoAction" />
+            android:label="Informasi Kehamilan"
+            android:parentActivityName=".Activity.MainActivity" />
         <activity
             android:name=".Activity.MainActivity"
             android:theme="@style/AppThemeNoAction" />

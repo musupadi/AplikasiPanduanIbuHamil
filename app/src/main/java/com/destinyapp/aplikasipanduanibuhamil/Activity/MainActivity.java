@@ -23,13 +23,15 @@ public class MainActivity extends AppCompatActivity {
         Informasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this,InformasiKehamilanActivity.class);
+                startActivity(intent);
             }
         });
         Mitos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this,MitosActivity.class);
+                startActivity(intent);
             }
         });
         Kalkulator.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Tentang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this,TentangActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">Aplikasi Panduan Ibu Hamil</string>
+    <string name="about">Nama saya Puji Prihar Utami, mahasiswi semester Akhir Program Studi Informatika di Universitas Indraprasta PGRI. Aplikasi ini dibuat sebagai salah satu syarat untuk memenuhi Tugas Akhir dan memperoleh gelar Sarjana.</string>
+
+    <!--    tittle,deskripsi,perkembangan,yangdirasakan,ukuran,panjang,organterbentuk -->
+    <!-- Informasi  -->
+    <!-- Minggu 1   -->
+    <string name="tittle_minggu_1">Perkembangan Janin Minggu Ke-1</string>
+    <string name="deskripsi_minggu_1">Pada minggu pertama ini baru terjadi proses pembentukan antara sperma dan sel telur.</string>
+    <string name="perkembangan_minggu_1">Ini dimulai saat telur meninggalkan ovarium dan bergerak ke tuba falopi, di mana ia bertemu dengan sperma dan dibuahi. Dari situlah sel telur yang dibuahi melewati tuba falopi dan masuk ke rahim, tempat implantasi terjadi.
+Beberapa orang berspekulasi seorang wanita tidak benar-benar hamil pada minggu pertama kehamilan, karena pembuahan berlangsung selama minggu kedua. Inilah alasan utama mengapa begitu banyak kehamilan tidak terdeteksi selama minggu pertama.
+</string>
+    <string name="yangdirasakan_minggu_1">Ciri-ciri yang dirasakan ibu hamil ketika kehamilan minggu pertama
+- Kelelahan
+- Ketidakpedulian makanan atau hasrat
+= Payudara membengkak
+</string>
+    <string name="ukuruan_minggu_1">Janin sudah memiliki bekal genetik 46 jenis kromosom. Pada masa ini embrio membutuhkan banyak nutrisi berupa oksigen dari ibu.</string>
+    <string name="panjang_minggu_1"></string>
+    <string name="organterbentuk_minggu_1">Terbentuknya jaringan yang terdiri dari 100 sel yang nantinya akan menjadi cikal bakal janin. Setelah membelah dan memperbanyak sel, calon janin atau embrio tersebut akan menempel pada rahim, yaitu tempat tumbuh kembangnya selama kehamilan terjadi.</string>
+    <!-- Minggu 2  -->
+    <string name="tittle_minggu_2">Perkembangan Janin Minggu Ke-2</string>
+    <string name="deskripsi_minggu_2"></string>
+    <string name="perkembangan_minggu_2">Memasuki minggu kedua, sel yang dimiliki embrio sebanyak kurang lebih 150 sel yang membentuk tiga lapisan, yaitu endoderm, mesoderm, dan ektoderm. Lapisan-lapisan yang dibentuk oleh sel inilah yang akan menjadi berbagai organ serta bagian tubuh dari bayi, seperti otot, tulang, jantung, sistem pencernaan, sistem reproduksi, dan sistem saraf.</string>
+    <string name="yangdirasakan_minggu_2">Biasanya ibu mulai merasa sering lelah akibat perubahan hormone dan emosi mulai berfluktuasi yaitu bias marah atau senang secara tiba-tiba.</string>
+    <string name="ukuruan_minggu_2">Sel telur yang telah dibuahi akan membelah dua menjadi dua sel, sambil terus membelah, sel telur bergerak meninggalkan lubang falopi menuju Rahim.</string>
+    <string name="panjang_minggu_2"></string>
+    <string name="organterbentuk_minggu_2"></string>
+    <!--  Minggu 3  -->
+    <string name="tittle_minggu_3">Perkembangan Janin Minggu Ke-2</string>
+    <string name="deskripsi_minggu_3"></string>
+    <string name="perkembangan_minggu_3">Memasuki minggu kedua, sel yang dimiliki embrio sebanyak kurang lebih 150 sel yang membentuk tiga lapisan, yaitu endoderm, mesoderm, dan ektoderm. Lapisan-lapisan yang dibentuk oleh sel inilah yang akan menjadi berbagai organ serta bagian tubuh dari bayi, seperti otot, tulang, jantung, sistem pencernaan, sistem reproduksi, dan sistem saraf.</string>
+    <string name="yangdirasakan_minggu_3">Biasanya ibu mulai merasa sering lelah akibat perubahan hormone dan emosi mulai berfluktuasi yaitu bias marah atau senang secara tiba-tiba.</string>
+    <string name="ukuruan_minggu_3">Sel telur yang telah dibuahi akan membelah dua menjadi dua sel, sambil terus membelah, sel telur bergerak meninggalkan lubang falopi menuju Rahim.</string>
+    <string name="panjang_minggu_3"></string>
+    <string name="organterbentuk_minggu_3"></string>
+    <!-- /Informasi  -->
 </resources>

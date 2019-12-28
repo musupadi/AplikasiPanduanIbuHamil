@@ -1,7 +1,15 @@
 package com.destinyapp.aplikasipanduanibuhamil.Model;
 
 public class DataModel {
-    String tittle,deskripsi,perkembangan,yangdirasakan,ukuran,panjang,organterbentuk;
+    String gambar,tittle,deskripsi,perkembangan,yangdirasakan,ukuran,panjang,organterbentuk;
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
 
     public String getTittle() {
         return tittle;
