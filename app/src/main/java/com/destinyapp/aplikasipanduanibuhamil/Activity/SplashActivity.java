@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -19,34 +20,14 @@ public class SplashActivity extends AppCompatActivity {
         animation = findViewById(R.id.loading);
 
         final Handler handler = new Handler();
+        final MediaPlayer SuaraLagu = MediaPlayer.create(SplashActivity.this,R.raw.welcome);
+        SuaraLagu.start();
         handler.postDelayed(new Runnable() {
             public void run() {
                 changeActivity();
             }
         }, 3000); //3000 L = 3 detik
-//        animation.addAnimatorListener(new Animator.AnimatorListener() {
-//            @Override
-//            public void onAnimationStart(Animator animator) {
-//
-//            }
-//
-//            @Override
-//            public void onAnimationEnd(Animator animator) {
-//                animation.pauseAnimation();
-//                changeActivity();
-//            }
-//
-//            @Override
-//            public void onAnimationCancel(Animator animator) {
-//                animation.pauseAnimation();
-//                changeActivity();
-//            }
-//
-//            @Override
-//            public void onAnimationRepeat(Animator animator) {
-//
-//            }
-//        });
+
     }
     private void changeActivity(){
         Intent intent = new Intent(this,MainActivity.class);
