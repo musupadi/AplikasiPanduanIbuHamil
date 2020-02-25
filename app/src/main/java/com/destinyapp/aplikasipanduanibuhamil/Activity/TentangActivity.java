@@ -20,7 +20,8 @@ public class TentangActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tentang);
 
         play=(ImageView)findViewById(R.id.ivMusikPlay);
-
+        MediaPlayer SuaraLagu2 = MediaPlayer.create(TentangActivity.this,R.raw.tentang);
+        SuaraLagu2.start();
         SuaraLagu = MediaPlayer.create(TentangActivity.this,R.raw.about);
 
         play.setOnClickListener(new View.OnClickListener() {

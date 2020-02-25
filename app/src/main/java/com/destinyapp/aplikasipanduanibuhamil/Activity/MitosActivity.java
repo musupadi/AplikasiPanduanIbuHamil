@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -26,6 +27,8 @@ public class MitosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mitos);
 
+        MediaPlayer SuaraLagu = MediaPlayer.create(MitosActivity.this,R.raw.mitoskehamilan);
+        SuaraLagu.start();
         mSlideViewPager = findViewById(R.id.SlideViewPager);
         mDotLayout = findViewById(R.id.dotSlayout);
         btnBack = findViewById(R.id.btnBack);

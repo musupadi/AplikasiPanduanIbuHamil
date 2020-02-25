@@ -53,6 +53,7 @@ public class AdapterInformasiKehamilan extends RecyclerView.Adapter<AdapterInfor
                 goInput.putExtra("GAMBAR",dm.getGambar());
                 goInput.putExtra("TITTLE",dm.getTittle());
                 goInput.putExtra( "DESKRIPSI",dm.getDeskripsi());
+                goInput.putExtra( "SUARA",dm.getSuara());
                 ctx.startActivities(new Intent[]{goInput});
             }
         });

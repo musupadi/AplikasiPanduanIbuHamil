@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class InformasiData {
     public static String[][] data = new String[][]{
             {String.valueOf(R.drawable.minggu1dan2),
+                    String.valueOf(R.raw.usia1minggu),
                     "Perkembangan Janin Usia Minggu ke-1",
                     "Pada minggu pertama ini baru terjadi proses pembentukan antara sperma dan sel telur.\n" +
                             "\n" +
@@ -24,6 +25,7 @@ public class InformasiData {
                             "Terbentuknya jaringan yang terdiri dari 100 sel yang nantinya akan menjadi cikal bakal janin. Setelah membelah dan memperbanyak sel, calon janin atau embrio tersebut akan menempel pada rahim, yaitu tempat tumbuh kembangnya selama kehamilan terjadi.\n"
             },
             {String.valueOf(R.drawable.minggu1dan2),
+                    String.valueOf(R.raw.usia2minggu),
                     "Perkembangan Janin Usia Minggu ke-2",
                     "1.Perkembangan didalam Rahim\n" +
                             "Memasuki minggu kedua, sel yang dimiliki embrio sebanyak kurang lebih 150 sel yang membentuk tiga lapisan, yaitu endoderm, mesoderm, dan ektoderm. Lapisan-lapisan yang dibentuk oleh sel inilah yang akan menjadi berbagai organ serta bagian tubuh dari bayi, seperti otot, tulang, jantung, sistem pencernaan, sistem reproduksi, dan sistem saraf.\n" +
@@ -34,6 +36,7 @@ public class InformasiData {
                             "Sel telur yang telah dibuahi akan membelah dua menjadi dua sel, sambil terus membelah, sel telur bergerak meninggalkan lubang falopi menuju Rahim.\n"
             },
             {String.valueOf(R.drawable.minggu3),
+                    String.valueOf(R.raw.usia3minggu),
                     "Perkembangan Janin Usia Minggu ke-3",
                     "Perkembangan didalam Rahim\n" +
                             "Embrio berhasil menempel dengan sempurna pada rahim. Pada masa ini, embrio masih melakukan pembelahan serta perbanyakan sel, oleh karena itu belum berbentuk seperti embrio atau bayi. Lapisan terluar dari embrio akan membentuk plasenta atau ari-ari.\n" +
@@ -45,6 +48,7 @@ public class InformasiData {
                             "Ukuran embrio pada minggu ketiga masih sangat kecil, hanya sebesar 1,5 mm.\n",
             },
             {String.valueOf(R.drawable.minggu4),
+                    String.valueOf(R.raw.usia4minggu),
                     "Perkembangan Janin Minggu Ke-4 (1 Bulan)",
                     "Kehamilan baru bisa di deteksi jika usia kehamilan sudah mencapai usia 4 minggu. Meski ada ibu hamil yang bisa mendeteksi kehamilan sebelum usianya 4 minggu, namun dokter kandungan baru bisa menyatakan bahwa ibu hamil tersebut benar-benar hamil jika usia kandungannya sudah 4 minggu. Dokter kandungan akan menyuruh ibu hamil tersebut kembali lagi jika selama 4 minggu atau lebih jika belum mendapatkan menstruasi.\n" +
                             "\n" +
@@ -86,6 +90,7 @@ public class InformasiData {
                             "    Tulang belakang\n",
             },
             {String.valueOf(R.drawable.minggu5),
+                    String.valueOf(R.raw.usia5minggu),
                     "Perkembangan Janin Minggu Ke-5 (1 Bulan)",
                     "Saat ibu hamil menggunakan tes pendeteksi kehamilan, hormon HCG pun sudah terdeteksi. Jumlah garis yang dihasilkan berjumlah dua atau tes menunjukkan simbol positif. Segera kunjungi dokter untuk cara menjaga kehamlan agar tetap sehat, untuk mendapatkan vitamin asam folat dan prenatal yang sangat dibutuhkan oleh embrio anda.\n" +
                             "\n" +
@@ -126,6 +131,7 @@ public class InformasiData {
                             "    Tangan dan kaki meski masih kecil",
             },
             {String.valueOf(R.drawable.minggu6),
+                    String.valueOf(R.raw.usia6minggu),
                     "Perkembangan Janin Minggu Ke-6 (1 Bulan)",
                     "Pada saat minggu ke-6, perkembangan janin menjadi sangat pesat. Berikut ini adalah perkembangannya.\n" +
                             "\n" +
@@ -162,6 +168,7 @@ public class InformasiData {
                             "    Kaki dan tangan yang lebih panjang dibandingkan sebelumnya."
             },
             {String.valueOf(R.drawable.minggu7),
+                    String.valueOf(R.raw.usia7minggu),
                     "Perkembangan Janin Minggu Ke-7 (1 Bulan)",
                     "Saat usia embrio berusia tujuh minggu, embrio sudah memiliki berat dan memiliki ukuran yang lebih panjang dibandingkan sebelumnya.\n" +
                             "\n" +
@@ -198,6 +205,7 @@ public class InformasiData {
                             "    Selaput jari tangan dan jari kaki."
             },
             {String.valueOf(R.drawable.minggu8),
+                    String.valueOf(R.raw.usia8minggu),
                     "Perkembangan Janin Usia 8 Minggu (2 Bulan)",
                     "Embrio sudah banyak berkembang di dalam rahim. Melalui berbagai proses yang ada di dalam rahim, embrio mulai mengalami perkembangan pesat.\n" +
                             "\n" +
@@ -245,6 +253,7 @@ public class InformasiData {
                             "    Langit-langit mulut"
             },
             {String.valueOf(R.drawable.minggu9),
+                    String.valueOf(R.raw.usia9minggu),
                     "Perkembangan Janin Usia 9 Minggu (2 Bulan)",
                     "Saat usia kehamilan memasuki usia 9 minggu, embrio berkembang semakin pesat. Perkembangan itu diikuti dengan perubahan fisik dan psikis pada ibu hamil.\n" +
                             "\n" +
@@ -278,6 +287,7 @@ public class InformasiData {
                             "    Telinga luar"
             },
             {String.valueOf(R.drawable.minggu10),
+                    String.valueOf(R.raw.usia10minggu),
                     "Perkembangan Janin Usia 10 Minggu (2 Bulan)",
                     "Saat usia kehamilan memasuki usia 10 minggu, embrio atau bakal janin telah berubah menjadi janin. Jika sudah menjadi janin, embrio tidak akan berbentuk seperti kecebong lagi. Namun sudah menyerupai manusia meski bentuknya masih kecil.\n" +
                             "\n" +
@@ -310,6 +320,7 @@ public class InformasiData {
                             "    Kuku"
             },
             {String.valueOf(R.drawable.minggu11),
+                    String.valueOf(R.raw.usia11minggu),
                     "Perkembangan Janin Usia 11 Minggu (2 Bulan)",
                     "Saat usia dua bulan, janin akan mengalami banyak perkembangan dan perubahan pesat. Panjang janin pun sudah semakin panjang dan juga semakin berat.\n" +
                             "\n" +
@@ -343,6 +354,7 @@ public class InformasiData {
                             "    Tulang ekor telah terbentuk"
             },
             {String.valueOf(R.drawable.minggu12),
+                    String.valueOf(R.raw.usia12minggu),
                     "Perkembangan Janin Usia 12 Minggu (3 Bulan)",
                     "Janin dalam usia ini sudah bertambah panjang dan berat. Bahkan pergerakan janin di dalam rahim pun semakin meningkat dan terasa. Berikut ini perkembangan janin di usia 12 minggu.\n" +
                             "\n" +
@@ -378,6 +390,7 @@ public class InformasiData {
                             "    Kelopak mata telah berfungsi"
             },
             {String.valueOf(R.drawable.minggu13),
+                    String.valueOf(R.raw.usia13minggu),
                     "Perkembangan Janin Usia 13 Minggu (3 Bulan)",
                     "Berikut ini berbagai macam perkembangan janin saat usianya 13 minggu.\n" +
                             "\n" +
@@ -412,6 +425,7 @@ public class InformasiData {
                             "    Badan bayi mulai membesar mengkuti pembesaran kepala"
             },
             {String.valueOf(R.drawable.minggu14),
+                    String.valueOf(R.raw.usia14minggu),
                     "Perkembangan Janin Usia 14 Minggu (3 Bulan)",
                     "Saat usia 14 minggu, janin akan mengalami berbagai macam proses perkembangan.\n" +
                             "\n" +
@@ -448,6 +462,7 @@ public class InformasiData {
                             "    Fungsi ginjal mulai mengeluarkan urin"
             },
             {String.valueOf(R.drawable.minggu15),
+                    String.valueOf(R.raw.usia15minggu),
                     "Perkembangan Janin Usia 15 Minggu (3 Bulan)",
                     "Bayi terus berkembang selama kebutuhan nutrisi gizi ibu hamil tercukupi di dalam tubuhnya.\n" +
                             "\n" +
@@ -477,6 +492,7 @@ public class InformasiData {
                             "    Sendi di seluruh organ tubuh"
             },
             {String.valueOf(R.drawable.minggu16),
+                    String.valueOf(R.raw.usia16minggu),
                     "Perkembangan Janin Usia 16 Minggu (4 Bulan)",
                     "Usia 16 minggu akan ada moment spesial bagi ibu hamil. Janin yang ada di dalam rahimnya mulai memiliki nyawa dan telah diberikan jenis kelamin oleh tuhan meskipun ibu hamil baru bisa melihatnya saat usia kehamilan 18 minggu.\n" +
                             "\n" +
@@ -506,6 +522,7 @@ public class InformasiData {
                             "Pada usia 4 bulan, organ yang terbentuk pada janin adalah sistem peredaran darah dan juga sistem saluran kemih."
             },
             {String.valueOf(R.drawable.minggu17),
+                    String.valueOf(R.raw.usia17minggu),
                     "Perkembangan Janin Usia 17 Minggu (4 Bulan)",
                     "Janin yang sudah memiliki nyawa akan terus berkembang. Berikut ini perkembangan yang ada pada janin dengan usia 17 minggu.\n" +
                             "\n" +
@@ -540,6 +557,7 @@ public class InformasiData {
                             "    Penebalan dan penguatan tali pusar dan plasenta"
             },
             {String.valueOf(R.drawable.minggu18),
+                    String.valueOf(R.raw.usia18minggu),
                     "Perkembangan Janin Usia 18 Minggu (4 Bulan)",
                     "Berikut ini berbagai macam perkembangan janin saat usia kehamilan 18 minggu.\n" +
                             "\n" +
@@ -569,6 +587,7 @@ public class InformasiData {
                             "Janin juga akan mengalami perkembangan dan pembentukan organ. Saat usia 18 minggu organ akan mengalami penyempurnaan pembuluh darah dan juga sistem pernapasan."
             },
             {String.valueOf(R.drawable.minggu19),
+                    String.valueOf(R.raw.usia19minggu),
                     "Perkembangan Janin Usia 19 Minggu (4 Bulan)",
                     "Janin saat usia 19 minggu akan mengalami berbagai macam proses di dalam rahim. Berikut ini adalah proses-prosesnya .\n" +
                             "\n" +
@@ -603,6 +622,7 @@ public class InformasiData {
                             "    Sel syaraf semain berkembang membentuk sistem syaraf yang semakin komplek"
             },
             {String.valueOf(R.drawable.minggu20),
+                    String.valueOf(R.raw.usia20minggu),
                     "Perkembangan Janin Usia 20 Minggu (5 Bulan)",
                     "Janin di dalam rahim ibu hamil akan mengalami berbagai macam proses perkembangan baik organ maupun aktivitas di dalam rahim ibunya.\n" +
                             "\n" +
@@ -633,6 +653,7 @@ public class InformasiData {
                             "    Sistem pencernaan mulai terbentuk dan lebih baik dibandingkan minggu-minggu sebelumnya."
             },
             {String.valueOf(R.drawable.minggu21),
+                    String.valueOf(R.raw.usia21minggu),
                     "Perkembangan Janin Usia 21 Minggu (5 Bulan)",
                     "Usia 5 bulan atau 21 minggu bayi mengalami berbagai macam proses di dalam rahim ibunya.\n" +
                             "\n" +
@@ -660,6 +681,7 @@ public class InformasiData {
                             "Janin akan membentuk alis dan kelopak mata yang sempurna sehingga bisa membuatnya berkedip."
             },
             {String.valueOf(R.drawable.minggu22),
+                    String.valueOf(R.raw.usia22minggu),
                     "Perkembangan Janin Usia 22 Minggu (5 Bulan)",
                     "Janin di usia 22 minggu bisa melakukan hal-hal yang tidak disangka oleh ibu hamil. Janin juga berkembang lebih sempurna dibandingkan dengan minggu sebelumnya.\n" +
                             "\n" +
@@ -687,6 +709,7 @@ public class InformasiData {
                             "Saat janin di minggu ini, pankreas semakin berkembang pesat. Sedangkan kelenjar lemak belum berkembang secara sempurna. Hormon di dalam pankeras pun juga akan berkembang terus."
             },
             {String.valueOf(R.drawable.minggu23),
+                    String.valueOf(R.raw.usia23minggu),
                     "Perkembangan Janin Usia 23 Minggu (5 Bulan)",
                     "Janin akan semakin menggemaskan di dalam rahim ibunya. Berikut ini berbagai macam proses perkembangan janin yang dilakukan menjelang bulan ke 6 ini.\n" +
                             "\n" +
@@ -711,6 +734,7 @@ public class InformasiData {
                             "Organ yang terbentuk dalam minggu ini adalah pendengaran bayi lebih sempurna, paru-paru mempersiapkan diri untuk bernafas."
             },
             {String.valueOf(R.drawable.minggu24),
+                    String.valueOf(R.raw.usia24minggu),
                     "Perkembangan Janin Usia 24 Minggu (6 Bulan )",
                     "Janin dalam usia 24 minggu mengalami perkembangan pesat terutama di bagian otaknya.\n" +
                             "\n" +
@@ -739,6 +763,7 @@ public class InformasiData {
                             "    Sidik kaki dan sidik jari terbentuk"
             },
             {String.valueOf(R.drawable.minggu25),
+                    String.valueOf(R.raw.usia25minggu),
                     "Perkembangan Janin Usia 25 Minggu (6 Bulan)",
                     "1. Proses di Dalam Rahim\n" +
                             "\n" +
@@ -765,6 +790,7 @@ public class InformasiData {
                             "    Syaraf optik otak bekerja dan berfungsi."
             },
             {String.valueOf(R.drawable.minggu26),
+                    String.valueOf(R.raw.usia26minggu),
                     "Perkembangan Janin Usia Minggu Ke-26 (6 Bulan)",
                     "1. Perkembangan di Dalam Rahim\n" +
                             "\n" +
@@ -787,6 +813,7 @@ public class InformasiData {
                             "Perkembangan organ terjadi di minggu ini terutama perkembangan organ otak. Sensorik dan motoriknya juga berkembang pesat."
             },
             {String.valueOf(R.drawable.minggu27),
+                    String.valueOf(R.raw.usia27minggu),
                     "Perkembangan Janin Usia 27 Minggu (6 Bulan)",
                     "1. Proses Perkembangan di Dalam Rahim\n" +
                             "\n" +
@@ -809,6 +836,7 @@ public class InformasiData {
                             "Janin akan memiliki otak dan mata yang aktif."
             },
             {String.valueOf(R.drawable.minggu28),
+                    String.valueOf(R.raw.usia28minggu),
                     "Perkembangan Janin Usia 28 Minggu (7 Bulan)",
                     "7 bulan adalah saat janin sudah benar-benar membentuk manusia kecil, ibu hamil juga mulai bisa mendeteksi jenis kelamin bayinya.\n" +
                             "\n" +
@@ -837,6 +865,7 @@ public class InformasiData {
                             "Saat usia kandungan 28 minggu janin telah memiliki bulu mata dan lapisan lemak terbentuk lebih sempurna."
             },
             {String.valueOf(R.drawable.minggu29),
+                    String.valueOf(R.raw.usia29minggu),
                     "Perkembangan Janin Minggu Ke-29 (7 Bulan)",
                     "Dalam minggu ini, janin akan lebih aktif dibandingkan dengan sebelumnya. Di dalam rahim janin akan terus berkembang terutama tulang dan organ-organ yang lainnya.\n" +
                             "\n" +
@@ -867,6 +896,7 @@ public class InformasiData {
                             "Organ yang terbentuk lebih sempurna adalah kepala dan otak. Selain itu ada clitoris dan skrotum yang mulai berkembang dan muncul meski belum sempurna."
             },
             {String.valueOf(R.drawable.minggu30),
+                    String.valueOf(R.raw.usia30minggu),
                     "Perkembangan Janin Minggu Ke- 30 (7 Bulan)",
                     "Janin mengalami perkembangan secara pesat terutama di bagian paru-paru. Bayi yang dilahirkan kurang dari usia 30 minggu banyak yang mengalami masalah di paru-parunya sebab saat janin berusia 30 minggu paru-paru hampir terbentuk sempurna.\n" +
                             "\n" +
@@ -895,6 +925,7 @@ public class InformasiData {
                             "Organ yang terbentuk pada tubuh janin adalah paru-paru dan sistem pencernaannya yang mendekati sempurna."
             },
             {String.valueOf(R.drawable.minggu31),
+                    String.valueOf(R.raw.usia31minggu),
                     "Perkembangan Janin Usia 31 Minggu (7 Bulan)",
                     "Janin pada usia ini akan memiliki berbagai macam proses dan perkembangan. Baik itu pergerakan tubuhnya maupun dengan organ-organnya.\n" +
                             "\n" +
@@ -919,6 +950,7 @@ public class InformasiData {
                             "Tangan terutama lengan dan kaki akan terus tumbuh. Jari tangan dan kaki semakin meningkat. Tubuh janin akan menyesuaikan dengan kepala bayi."
             },
             {String.valueOf(R.drawable.minggu32),
+                    String.valueOf(R.raw.usia32minggu),
                     "Perkembangan Janin Usia 32 Minggu (8 Bulan)",
                     "Proses yang akan dilalui janin adalah berikut ini :\n" +
                             "\n" +
@@ -947,6 +979,7 @@ public class InformasiData {
                             "    Untuk janin perempuan, labia mulai berkembang sedikit demi sedikit."
             },
             {String.valueOf(R.drawable.minggu33),
+                    String.valueOf(R.raw.usia33minggu),
                     "Perkembangan Janin Usia 33 Minggu (8 Bulan)",
                     "Janin pada usia 33 minggu sudah bersiap-siap lahir, sehingga posisinya sudah mendekati panggul.\n" +
                             "\n" +
@@ -980,6 +1013,7 @@ public class InformasiData {
                             "    Pembentukan lemak mulai sempurna dan menumpuk pada lapisan bawah kulit."
             },
             {String.valueOf(R.drawable.minggu34),
+                    String.valueOf(R.raw.usia34minggu),
                     "Perkembangan Janin Usia 34 Minggu ( #8 Bulan )",
                     "Janin akan mengalami berbagai macam perkembangan. Berikut ini berbagai macam perkembangan yang dialami oleh bayi usia 34 minggu.\n" +
                             "\n" +
@@ -1004,6 +1038,7 @@ public class InformasiData {
                             "Janin pada usia ini akan memiliki organ pendengaran yang hampir sempurna. Paru-paru hampir sempurna dan syaraf pusat janin belum terbentuk dengan baik. Bagi kelahiran prematur, janin dengan usia 34 minggu bisa bertahan di luar rahim sebanyak 99 persen, namun sementara waktu diletakkan di ruang inkubator."
             },
             {String.valueOf(R.drawable.minggu35),
+                    String.valueOf(R.raw.usia35minggu),
                     "Perkembangan Janin Usia 35 Minggu (8 Bulan)",
                     "Berbagai macam proses akan dilakukan oleh bayi. Proses tersebut adalah berikut ini :\n" +
                             "\n" +
@@ -1039,6 +1074,7 @@ public class InformasiData {
                             "    Hati juga mengeluarkan limbah atau bersekresi"
             },
             {String.valueOf(R.drawable.minggu36),
+                    String.valueOf(R.raw.usia36minggu),
                     "Perkembangan Janin Usia 36 Minggu (9 Bulan)",
                     "Usia 9 bulan adalah masa yang dinanti-nanti. Sebab kelahiran malaikat kecil sudah hampir tiba. Ibu hamil banyak yang nerves dan merasa khawatir saat kandungannya memasuki usia ini.\n" +
                             "\n" +
@@ -1070,6 +1106,7 @@ public class InformasiData {
                             "Paru-paru, ginjal dan hati bekerja secara sempurna. Mengeluarkan urin dan sekresi."
             },
             {String.valueOf(R.drawable.minggu37),
+                    String.valueOf(R.raw.usia37minggu),
                     "Perkembangan  Janin Usia 37 Minggu (9 Bulan)",
                     "1. Proses Yang Terjadi Di Dalam Rahim\n" +
                             "\n" +
@@ -1092,6 +1129,7 @@ public class InformasiData {
                             "Organ janin yang terbentuk adalah selaput keputihan penutup tubuh bayi."
             },
             {String.valueOf(R.drawable.minggu38),
+                    String.valueOf(R.raw.usia38minggu),
                     "Perkembangan Janin Minggu Ke-38 (9 Bulan)",
                     "1. Perkembangan Bayi di Dalam Rahim\n" +
                             "\n" +
@@ -1114,6 +1152,7 @@ public class InformasiData {
                             "Paru-paru sudah sepenuhnya sempurna. Banyak juga yang ibu hamil melahirkan di usia 9 bulan lebih 3 minggu."
             },
             {String.valueOf(R.drawable.minggu39),
+                    String.valueOf(R.raw.usia39minggu),
                     "Perkembangan Janin Usia 39 Minggu ( #9 Bulan )",
                     "Sebenarnya orang Indonesia memiliki waktu atau masa kelahiran sekitar 9 bulan lebih 11 hari, 9 bulan lebih 2 minggu. Namun orang luar dan sedikitnya orang Indonesia mengalami kehamilan 39 minggu sampai dengan usia 40 minggu.\n" +
                             "\n" +
@@ -1138,6 +1177,7 @@ public class InformasiData {
                             "Organ yang terbentuk adalah kelenjar minyak. Lapisan kulit luar dan rambut janin lebih menebal. Usia minggu ini tengkorak bayi belum menyatu."
             },
             {String.valueOf(R.drawable.minggu40),
+                    String.valueOf(R.raw.usia40minggu),
                     "Perkembangan Janin Usia 40 Minggu (10 Bulan)",
                     "Minggu ke-40 adalah tahap terakhir kehamilan. Jika ibu hamil belum merasakan tanda-tanda kelahiran, periksakan diri ke dokter dan bidan.\n" +
                             "\n" +
@@ -1168,8 +1208,9 @@ public class InformasiData {
         for (String[] aData : data) {
             dm = new DataModel();
             dm.setGambar(aData[0]);
-            dm.setTittle(aData[1]);
-            dm.setDeskripsi(aData[2]);
+            dm.setSuara(aData[1]);
+            dm.setTittle(aData[2]);
+            dm.setDeskripsi(aData[3]);
             list.add(dm);
         }
         return list;

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.app.DatePickerDialog;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,8 @@ public class KalkulatorHPLActivity extends AppCompatActivity implements DatePick
 //        tanggal= findViewById(R.id.etTanggal);
 //        bulan= findViewById(R.id.etBulan);
 //        tahun= findViewById(R.id.etTahun);
+        MediaPlayer SuaraLagu = MediaPlayer.create(KalkulatorHPLActivity.this,R.raw.kalkulatorhpl);
+        SuaraLagu.start();
         Hitung= findViewById(R.id.btnHitung);
         tanggalHPHT = findViewById(R.id.tvTanggalHPL);
         tanggalPilihan = findViewById(R.id.tvTanggalPilihan);
